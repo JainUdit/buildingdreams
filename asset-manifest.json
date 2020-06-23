@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/JainUdit/buildingdreams.git/static/css/main.5f361e03.chunk.css",
+    "main.js": "/JainUdit/buildingdreams.git/static/js/main.9b325c53.chunk.js",
+    "main.js.map": "/JainUdit/buildingdreams.git/static/js/main.9b325c53.chunk.js.map",
+    "runtime-main.js": "/JainUdit/buildingdreams.git/static/js/runtime-main.a9ae4190.js",
+    "runtime-main.js.map": "/JainUdit/buildingdreams.git/static/js/runtime-main.a9ae4190.js.map",
+    "static/js/2.da89e792.chunk.js": "/JainUdit/buildingdreams.git/static/js/2.da89e792.chunk.js",
+    "static/js/2.da89e792.chunk.js.map": "/JainUdit/buildingdreams.git/static/js/2.da89e792.chunk.js.map",
+    "index.html": "/JainUdit/buildingdreams.git/index.html",
+    "precache-manifest.42f1ce3080428a787e6077dc36f4f66d.js": "/JainUdit/buildingdreams.git/precache-manifest.42f1ce3080428a787e6077dc36f4f66d.js",
+    "service-worker.js": "/JainUdit/buildingdreams.git/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/JainUdit/buildingdreams.git/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.da89e792.chunk.js.LICENSE.txt": "/JainUdit/buildingdreams.git/static/js/2.da89e792.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/JainUdit/buildingdreams.git/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9ae4190.js",
+    "static/js/2.da89e792.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.9b325c53.chunk.js"
+  ]
+}
