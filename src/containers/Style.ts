@@ -22,6 +22,19 @@ export const StyledHeader = styled('div')`
     .midFace {
         height: 300px;
     }
+
+    .search {
+        position: relative;
+        border-radius: 15px;
+        background-color: rgba(0,0,0, 0.4);
+        margin-left: 0;
+        width: 200px;
+        cursor: pointer;
+    }
+    .searchIcon {
+        padding: 10px;
+        cursor: pointer;
+    }
 `
 
 export const StyledFooter = styled(Grid)`

@@ -1,6 +1,7 @@
 import React, { ReactElement } from 'react';
 import { StyledHeader } from './Style';
-import { Grid } from '@material-ui/core';
+import { Grid, InputBase } from '@material-ui/core';
+import SearchIcon from '@material-ui/icons/Search';
 
 export const Header = (): ReactElement => {
     return (
@@ -8,8 +9,11 @@ export const Header = (): ReactElement => {
             <Grid container item className="topFace" wrap="nowrap" justify="flex-start" alignItems="center">
                 <span>Thakarji</span>
             </Grid>
-            <Grid container item className="midFace" wrap="nowrap" justify="center" alignItems="center">
-                <span>U can do it!!!</span>
+            <Grid container item direction="row" className="midFace" wrap="nowrap" justify="center" alignItems="center">
+                <Grid container item direction="row" className="search" wrap="nowrap">
+                    <div className="searchIcon"><SearchIcon /></div>
+                    <InputBase placeholder="Search" />
+                </Grid>
             </Grid>
         </StyledHeader>
     )
