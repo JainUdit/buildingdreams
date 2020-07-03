@@ -1,8 +1,11 @@
 import styled from '@emotion/styled';
 import { Grid, Button, Menu, MenuItem } from '@material-ui/core';
 import background from '../images/Background.jpg';
-import architect from '../images/architect.png';
+import pro from '../images/pro.png';
 import design from '../images/camera.png';
+import architectIcon from '../images/architectIcon.png';
+import contractorIcon from '../images/contractorIcon.png';
+import electricianIcon from '../images/electricianIcon.png';
 
 export const StyledDaytona = styled(Grid)`
     height: 100%;
@@ -91,7 +94,7 @@ export const StyledFooter = styled(Grid)`
 export const StyledDesignAndPros = styled(Grid)(`
     width: 100%;
     height: 200px;
-    background-color: #294F61;
+    background-color: rgba(41, 79, 97, 0.6);
     font-size: 14px;
     font-family: "Lucida Console"; 
 
@@ -100,8 +103,46 @@ export const StyledDesignAndPros = styled(Grid)(`
     }
 `);
 
-export const ArchitectImage = styled(Grid)`
-    background-image: url(${architect}); 
+export const StyledMenu = styled(Menu)(`
+    & .MuiList-root {
+        background-color: #294F61;
+    }
+    .marginLeftRight {
+        margin: 0px 10px;
+    }
+`)
+
+export const StyledMenuItem = styled(MenuItem)(`
+    & .MuiButton-label {
+        font-size: 16px;
+    }
+    .fontFamily {
+        font-family: serif;
+        font-size: 16px;
+    }
+    .marginLeftRight {
+        margin: 0px 10px;
+    }
+`)
+
+export const StyledOfferedServices = styled(Grid)(`
+    background-color: #294F61;
+    height: 250px;
+    .servicesHeader {
+        margin: 20px;
+        font-size: 22px;
+        font-weight: bolder;
+        font-family: "sqmarket", "Helvetica", sans-serif !important;
+    }
+
+    .serviceLabels {
+        cursor: pointer;
+        margin: 0px 25px;
+    }
+`)
+
+export const ProsImage = styled(Grid)`
+    background-image: url(${pro}); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,28 +165,41 @@ export const DesignImage = styled(Grid)`
     width: 80px;
 `
 
-export const StyledMenu = styled(Menu)(`
+export const ArchitectIcon = styled(Grid)`
+    background-image: url(${architectIcon}); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 0px;
+    margin: 25px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+`
 
-    & .MuiList-root {
-        background-color: #294F61;
-    }
+export const ContractorIcon = styled(Grid)`
+    background-image: url(${contractorIcon}); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 0px;
+    margin: 25px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+`
 
-    .marginLeftRight {
-        margin: 0px 10px;
-    }
-`)
-
-export const StyledMenuItem = styled(MenuItem)(`
-
-    & .MuiButton-label {
-        font-size: 16px;
-    }
-    .fontFamily {
-        font-family: serif;
-        font-size: 16px;
-    }
-
-    .marginLeftRight {
-        margin: 0px 10px;
-    }
-`)
+export const ElectricianIcon = styled(Grid)`
+    background-image: url(${electricianIcon}); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 0px;
+    margin: 25px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+`
