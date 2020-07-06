@@ -13,9 +13,10 @@ export const StyledDaytona = styled(Grid)`
 `
 
 export const StyledHeader = styled('div')`
-    background-image: url(${background}); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 25, 0.8)), url(${background});
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-color: #F5F5F5;
     position: relative;
@@ -41,6 +42,8 @@ export const StyledHeader = styled('div')`
     .topFace {
         height: 50px;
         background-color: rgba(0,0,0, 0.2);
+        position: fixed;
+        z-index:100;
     }
 
     .midFace {

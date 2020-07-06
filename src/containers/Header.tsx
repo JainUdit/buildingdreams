@@ -10,7 +10,9 @@ export const Header = (): ReactElement => {
     const isXtraSmall = useMediaQuery(theme.breakpoints.down('xs'));
 
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
+
     const open = Boolean(anchorEl);
+
 
     const handleMenuClick = (event: React.MouseEvent<HTMLElement>) => {
         setAnchorEl(event.currentTarget);
@@ -22,18 +24,25 @@ export const Header = (): ReactElement => {
 
     const menu = (): ReactElement => {
         return (
-            <StyledMenu
-                id="fade-menu"
-                anchorEl={anchorEl}
-                keepMounted
-                open={open}
-                onClose={handleClose}
-                TransitionComponent={Fade}
-            >
-                <StyledMenuItem onClick={handleClose}><HowItWorksPopUp /></StyledMenuItem>
-                <StyledMenuItem onClick={handleClose}><span className="fontFamily marginLeftRight">Join As Pro</span></StyledMenuItem>
-                <StyledMenuItem onClick={handleClose}><span className="fontFamily marginLeftRight">Sign In</span></StyledMenuItem>
-            </StyledMenu>
+            <>
+                <IconButton className="marginLeftRight" onClick={handleMenuClick}>
+                    <MenuIcon />
+                </IconButton>
+                <StyledMenu
+                    id="fade-menu"
+                    anchorEl={anchorEl}
+                    keepMounted
+                    open={open}
+                    onClose={handleClose}
+                    TransitionComponent={Fade}
+                    anchorOrigin={{ horizontal: "right", vertical: "top" }}
+                    transformOrigin={{ horizontal: "right", vertical: "top" }}
+                >
+                    <StyledMenuItem onClick={handleClose}><HowItWorksPopUp /></StyledMenuItem>
+                    <StyledMenuItem onClick={handleClose}><span className="fontFamily marginLeftRight">Join As Pro</span></StyledMenuItem>
+                    <StyledMenuItem onClick={handleClose}><span className="fontFamily marginLeftRight">Sign In</span></StyledMenuItem>
+                </StyledMenu>
+            </>
         );
     }
 
@@ -46,9 +55,6 @@ export const Header = (): ReactElement => {
                 {isXtraSmall
                     ?
                     <Grid container item md={9} wrap="nowrap" justify="flex-end" alignItems="center">
-                        <IconButton className="marginLeftRight" onClick={handleMenuClick}>
-                            <MenuIcon />
-                        </IconButton>
                         {menu()}
                     </Grid>
                     :
