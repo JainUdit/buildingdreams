@@ -1,27 +1,29 @@
 {
   "files": {
     "main.css": "/buildingdreams/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/buildingdreams/static/js/main.6e7f094d.chunk.js",
-    "main.js.map": "/buildingdreams/static/js/main.6e7f094d.chunk.js.map",
+    "main.js": "/buildingdreams/static/js/main.356ba6d2.chunk.js",
+    "main.js.map": "/buildingdreams/static/js/main.356ba6d2.chunk.js.map",
     "runtime-main.js": "/buildingdreams/static/js/runtime-main.b286591c.js",
     "runtime-main.js.map": "/buildingdreams/static/js/runtime-main.b286591c.js.map",
-    "static/js/2.3598f5ce.chunk.js": "/buildingdreams/static/js/2.3598f5ce.chunk.js",
-    "static/js/2.3598f5ce.chunk.js.map": "/buildingdreams/static/js/2.3598f5ce.chunk.js.map",
+    "static/js/2.1f294677.chunk.js": "/buildingdreams/static/js/2.1f294677.chunk.js",
+    "static/js/2.1f294677.chunk.js.map": "/buildingdreams/static/js/2.1f294677.chunk.js.map",
     "index.html": "/buildingdreams/index.html",
-    "precache-manifest.d1e5d8d6030b33e98514bcce7b8412c5.js": "/buildingdreams/precache-manifest.d1e5d8d6030b33e98514bcce7b8412c5.js",
+    "precache-manifest.87b3c7e3275e75f7c9291078955564bd.js": "/buildingdreams/precache-manifest.87b3c7e3275e75f7c9291078955564bd.js",
     "service-worker.js": "/buildingdreams/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/buildingdreams/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.3598f5ce.chunk.js.LICENSE.txt": "/buildingdreams/static/js/2.3598f5ce.chunk.js.LICENSE.txt",
+    "static/js/2.1f294677.chunk.js.LICENSE.txt": "/buildingdreams/static/js/2.1f294677.chunk.js.LICENSE.txt",
     "static/media/Background.jpg": "/buildingdreams/static/media/Background.90840909.jpg",
-    "static/media/architectIcon.png": "/buildingdreams/static/media/architectIcon.11cc363a.png",
+    "static/media/architectImage.jpg": "/buildingdreams/static/media/architectImage.43504b53.jpg",
     "static/media/camera.png": "/buildingdreams/static/media/camera.86038b83.png",
+    "static/media/carpenterIcon.png": "/buildingdreams/static/media/carpenterIcon.e9900e78.png",
+    "static/media/contractorImage.jpg": "/buildingdreams/static/media/contractorImage.c5fcd729.jpg",
     "static/media/electricianIcon.png": "/buildingdreams/static/media/electricianIcon.3e880871.png",
     "static/media/pro.png": "/buildingdreams/static/media/pro.d20bc3e6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b286591c.js",
-    "static/js/2.3598f5ce.chunk.js",
+    "static/js/2.1f294677.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.6e7f094d.chunk.js"
+    "static/js/main.356ba6d2.chunk.js"
   ]
 }
