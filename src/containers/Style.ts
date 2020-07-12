@@ -3,9 +3,10 @@ import { Grid, Button, Menu, MenuItem } from '@material-ui/core';
 import background from '../images/Background.jpg';
 import pro from '../images/pro.png';
 import design from '../images/camera.png';
-import architectIcon from '../images/architectIcon.png';
-import contractorIcon from '../images/contractorIcon.png';
+import architectImage from '../images/architectImage.jpg';
+import contractorImage from '../images/contractorImage.jpg';
 import electricianIcon from '../images/electricianIcon.png';
+import carpenterIcon from '../images/carpenterIcon.png';
 
 export const StyledDaytona = styled(Grid)`
     height: 100%;
@@ -58,7 +59,7 @@ export const StyledHeader = styled('div')`
         background-color: rgba(0,0,0, 0.4);
         color: #F5F5F5;
         margin-left: 0;
-        width: 200px;
+        width: 350px;
         cursor: pointer;
     }
 
@@ -81,7 +82,7 @@ export const StyledButton = styled(Button)`
 `
 
 export const StyledFooter = styled(Grid)`
-    background-color: #F5F5F5;
+    background-color: rgb(150, 150, 150);
     color: #333333;
     height: 50px;
     font-family: Georgia, serif;
@@ -129,18 +130,26 @@ export const StyledMenuItem = styled(MenuItem)(`
 `)
 
 export const StyledOfferedServices = styled(Grid)(`
-    background-color: #294F61;
+    background-color: #F5F5F5;
     height: 250px;
     .servicesHeader {
         margin: 20px;
         font-size: 22px;
         font-weight: bolder;
         font-family: "sqmarket", "Helvetica", sans-serif !important;
+        color: grey;
     }
 
     .serviceLabels {
+        font-famliy: "Helvetica";
+        font-size: 18px;
         cursor: pointer;
-        margin: 0px 25px;
+        margin: 10px 25px;
+    }
+
+    .description {
+        font-size: 14px;
+        margin: 10px 25px;
     }
 `)
 
@@ -152,7 +161,7 @@ export const ProsImage = styled(Grid)`
     position: relative;
     border: 0px;
     margin: 15px;
-    height:100px;
+    height: 100px;
     width: 100px;
 `
 
@@ -169,28 +178,28 @@ export const DesignImage = styled(Grid)`
 `
 
 export const ArchitectIcon = styled(Grid)`
-    background-image: url(${architectIcon}); 
+    background-image: url(${architectImage}); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     border: 0px;
     margin: 25px;
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
     cursor: pointer;
 `
 
 export const ContractorIcon = styled(Grid)`
-    background-image: url(${contractorIcon}); 
+    background-image: url(${contractorImage}); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     border: 0px;
     margin: 25px;
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
     cursor: pointer;
 `
 
@@ -202,7 +211,20 @@ export const ElectricianIcon = styled(Grid)`
     position: relative;
     border: 0px;
     margin: 25px;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+`
+
+export const CarpenterIcon = styled(Grid)`
+    background-image: url(${carpenterIcon}); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 0px;
+    margin: 25px;
+    height: 100px;
+    width: 100px;
     cursor: pointer;
 `
